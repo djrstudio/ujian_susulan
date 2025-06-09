@@ -1,0 +1,29 @@
+{
+  "name": "avr8js-electron-playground",
+  "version": "0.18.10",
+  "author": "arcostasi",
+  "license": "MIT",
+  "description": "An AVR8js and Wokwi Elements playground implemented with Electron.",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "electron ./dist/app/main.js",
+    "dev": "tsc && electron ./dist/app/main.js"
+  },
+  "dependencies": {
+    "@panzoom/panzoom": "^4.5.1",
+    "@types/react": "^17.0.43",
+    "@wokwi/elements": "^1.5.0",
+    "@wokwi/fastled-monaco": "git+https://github.com/wokwi/fastled-monaco.git",
+    "avr8js": "^0.20.1",
+    "custom-electron-titlebar": "^4.2.8",
+    "interactjs": "^1.10.17",
+    "lit-html": "^2.6.1",
+    "monaco-editor": "^0.36.0",
+    "split.js": "^1.6.5"
+  },
+  "devDependencies": {
+    "electron": "^23.1.0",
+    "typescript": "^4.9.5"
+  }
+}
